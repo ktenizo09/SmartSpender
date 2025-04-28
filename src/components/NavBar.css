@@ -18,7 +18,7 @@
 .list {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 1rem;
     margin: 0;
 }
 
@@ -36,3 +36,71 @@
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
     color: inherit;
 }
+
+/* Responsive design for Mobile devices */
+@media only screen and (max-width: 699px) {
+    .navigation-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-logo {
+        margin-bottom: 1rem;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        font-size: 1.2rem;
+    }
+  }
+
+  /* Responsive design for Tablet devices */
+  @media only screen and (min-width: 700px) and (max-width: 932px) {
+    .navigation-bar {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-logo {
+        margin-bottom: 0;
+        border-right: 1px solid #ccc;
+        font-size:1.1rem;
+    }
+
+    .list {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .nav-links {
+        font-size: 55%;
+    }
+  }
+
+/* Responsive design for Tablet devices */
+  @media only screen and (min-width: 933px ) and (max-width: 1280px) {
+    .navigation-bar {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-logo {
+        margin-bottom: 0;
+        border-right: 1px solid #ccc;
+    }
+
+    .list {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .nav-links {
+        font-size: 80%;
+    }
+  }

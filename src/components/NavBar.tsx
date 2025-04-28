@@ -22,7 +22,7 @@ function NavBar() {
                     </div> */}
                 <ul className='list'>
                     <li>
-                        <Link to="/account" className="nav-links" >
+                        <Link to="/sign-in" className="nav-links" >
                             <FontAwesomeIcon icon={faCircleUser} /> Sign in</Link>
                     </li>
                     <li>
