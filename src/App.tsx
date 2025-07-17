@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar"
 import LandingPage from "./components/LandingPage";
-import React from 'react';
+import BudgetCalculator from "./components/BudgetCalculator";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           <Route path="/" Component={LandingPage} />
           <Route path="/sign-in" />
           <Route path="/sign-up" />
-          <Route path="/budget-calculator" />
+          <Route path="/budget-calculator" Component={BudgetCalculator}/>
           <Route path="/job-portal" />
           <Route path="/forum" />
           <Route path="/about" />
