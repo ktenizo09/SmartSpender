@@ -22,7 +22,7 @@ function LandingPage() {
                     <h3>Get Started</h3>
                     <div className="button-group">
                         <Link to="/sign-up" className='btnSignUp'>Sign Up</Link>
-                        <Link to="/sign-in" className='btnLogIn '>Log In</Link>
+                        <Link to="/sign-in" className='btnSignIn '>Sign In</Link>
                     </div>
                 </div>
             </div>

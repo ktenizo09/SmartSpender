@@ -57,7 +57,7 @@ ul {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.btnLogIn {
+.btnSignIn {
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
@@ -67,7 +67,7 @@ ul {
   color: inherit;
 }
 
-.btnLogIn:hover {
+.btnSignIn:hover {
   background-color: #7c7c7c38;
   color: black;
   border-radius: 5px;

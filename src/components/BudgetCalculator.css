@@ -17,13 +17,46 @@
     display:flex;
     flex-direction:column;
     margin-bottom:2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #btn_add{
     margin-top:1rem;
+    border-radius: 100px;
+    padding:0.3rem 2rem;
+    float: right;
 }
 
 .tab-content{
     padding:1rem;
     border-radius:0.25rem;
+}
+
+#income-amount{
+    border-radius: 100px;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+}
+#income-description{
+    border-radius: 100px;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+}
+#income-category{
+    border-radius: 100px;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+}
+.nav-tabs .nav-link{
+ color: black;
+ font-weight: 600;
+}
+.nav-tabs .nav-link.hover{
+    color: white;
+}
+.budget-tabs {
+   padding:0;
 }
